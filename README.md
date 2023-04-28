@@ -92,3 +92,10 @@
 	- Navigate to http://localhost:3100/search
 	- Leave search box empty and submit the search
 	- Assert that "Please provide a search word." message is shown.
+
+### Steps to compile and run Tests
+
+	- Download latest version of code
+	- Requirements: You need to have Java and Maven installed
+	- To install all dependencies: from console write next code "mvn install" and press Enter
+	- To run all test: from console write next code "mvn test" and press Enter

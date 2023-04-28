@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-28T14:52:34 ART" name="Suite" finished-at="2023-04-28T14:52:59 ART" duration-ms="24483">
+    <groups>
+    </groups>
+    <test started-at="2023-04-28T14:52:34 ART" name="Test" finished-at="2023-04-28T14:52:59 ART" duration-ms="24483">
+      <class name="test.GridTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.GridTest@3b0fe47a]" started-at="2023-04-28T14:52:46 ART" name="setup" finished-at="2023-04-28T14:52:47 ART" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToGrid()[pri:0, instance:test.GridTest@3b0fe47a]" started-at="2023-04-28T14:52:47 ART" name="navigateToGrid" finished-at="2023-04-28T14:52:49 ART" duration-ms="2937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToGrid -->
+        <test-method signature="checkAllItemsCompleted()[pri:0, instance:test.GridTest@3b0fe47a]" started-at="2023-04-28T14:52:49 ART" name="checkAllItemsCompleted" finished-at="2023-04-28T14:52:50 ART" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllItemsCompleted -->
+        <test-method is-config="true" signature="navigateToGrid()[pri:0, instance:test.GridTest@3b0fe47a]" started-at="2023-04-28T14:52:50 ART" name="navigateToGrid" finished-at="2023-04-28T14:52:50 ART" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToGrid -->
+        <test-method signature="checkItemSuperPepperoni()[pri:0, instance:test.GridTest@3b0fe47a]" started-at="2023-04-28T14:52:50 ART" name="checkItemSuperPepperoni" finished-at="2023-04-28T14:52:50 ART" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkItemSuperPepperoni -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:test.GridTest@3b0fe47a]" started-at="2023-04-28T14:52:50 ART" name="teatDown" finished-at="2023-04-28T14:52:51 ART" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- test.GridTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@248e319b]" started-at="2023-04-28T14:52:34 ART" name="setup" finished-at="2023-04-28T14:52:36 ART" duration-ms="1882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToLogin()[pri:0, instance:test.LoginTest@248e319b]" started-at="2023-04-28T14:52:36 ART" name="navigateToLogin" finished-at="2023-04-28T14:52:38 ART" duration-ms="1913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLogin -->
+        <test-method signature="loginFailureEmptyCredentials()[pri:0, instance:test.LoginTest@248e319b]" started-at="2023-04-28T14:52:38 ART" name="loginFailureEmptyCredentials" finished-at="2023-04-28T14:52:38 ART" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailureEmptyCredentials -->
+        <test-method is-config="true" signature="navigateToLogin()[pri:0, instance:test.LoginTest@248e319b]" started-at="2023-04-28T14:52:38 ART" name="navigateToLogin" finished-at="2023-04-28T14:52:38 ART" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLogin -->
+        <test-method signature="loginFailureInvalidPassword()[pri:0, instance:test.LoginTest@248e319b]" started-at="2023-04-28T14:52:38 ART" name="loginFailureInvalidPassword" finished-at="2023-04-28T14:52:38 ART" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailureInvalidPassword -->
+        <test-method is-config="true" signature="navigateToLogin()[pri:0, instance:test.LoginTest@248e319b]" started-at="2023-04-28T14:52:38 ART" name="navigateToLogin" finished-at="2023-04-28T14:52:38 ART" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLogin -->
+        <test-method signature="loginFailureInvalidUsername()[pri:0, instance:test.LoginTest@248e319b]" started-at="2023-04-28T14:52:38 ART" name="loginFailureInvalidUsername" finished-at="2023-04-28T14:52:39 ART" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailureInvalidUsername -->
+        <test-method is-config="true" signature="navigateToLogin()[pri:0, instance:test.LoginTest@248e319b]" started-at="2023-04-28T14:52:39 ART" name="navigateToLogin" finished-at="2023-04-28T14:52:39 ART" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLogin -->
+        <test-method signature="loginSuccess()[pri:0, instance:test.LoginTest@248e319b]" started-at="2023-04-28T14:52:39 ART" name="loginSuccess" finished-at="2023-04-28T14:52:39 ART" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:test.LoginTest@248e319b]" started-at="2023-04-28T14:52:39 ART" name="teatDown" finished-at="2023-04-28T14:52:39 ART" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.SearchTest@202b0582]" started-at="2023-04-28T14:52:51 ART" name="setup" finished-at="2023-04-28T14:52:51 ART" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToLogin()[pri:0, instance:test.SearchTest@202b0582]" started-at="2023-04-28T14:52:51 ART" name="navigateToLogin" finished-at="2023-04-28T14:52:53 ART" duration-ms="1971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLogin -->
+        <test-method signature="checkSearchEmpty()[pri:0, instance:test.SearchTest@202b0582]" started-at="2023-04-28T14:52:53 ART" name="checkSearchEmpty" finished-at="2023-04-28T14:52:56 ART" duration-ms="3197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchEmpty -->
+        <test-method is-config="true" signature="navigateToLogin()[pri:0, instance:test.SearchTest@202b0582]" started-at="2023-04-28T14:52:56 ART" name="navigateToLogin" finished-at="2023-04-28T14:52:56 ART" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLogin -->
+        <test-method signature="checkSearchSuccess()[pri:0, instance:test.SearchTest@202b0582]" started-at="2023-04-28T14:52:56 ART" name="checkSearchSuccess" finished-at="2023-04-28T14:52:59 ART" duration-ms="2183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchSuccess -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:test.SearchTest@202b0582]" started-at="2023-04-28T14:52:59 ART" name="teatDown" finished-at="2023-04-28T14:52:59 ART" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- test.SearchTest -->
+      <class name="test.CheckoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CheckoutTest@7ef82753]" started-at="2023-04-28T14:52:39 ART" name="setup" finished-at="2023-04-28T14:52:40 ART" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToCheckout()[pri:0, instance:test.CheckoutTest@7ef82753]" started-at="2023-04-28T14:52:40 ART" name="navigateToCheckout" finished-at="2023-04-28T14:52:42 ART" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckout -->
+        <test-method signature="validCartTotal()[pri:0, instance:test.CheckoutTest@7ef82753]" started-at="2023-04-28T14:52:42 ART" name="validCartTotal" finished-at="2023-04-28T14:52:42 ART" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCartTotal -->
+        <test-method is-config="true" signature="navigateToCheckout()[pri:0, instance:test.CheckoutTest@7ef82753]" started-at="2023-04-28T14:52:42 ART" name="navigateToCheckout" finished-at="2023-04-28T14:52:42 ART" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckout -->
+        <test-method signature="validCheckoutFormAlert()[pri:0, instance:test.CheckoutTest@7ef82753]" started-at="2023-04-28T14:52:42 ART" name="validCheckoutFormAlert" finished-at="2023-04-28T14:52:45 ART" duration-ms="2723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCheckoutFormAlert -->
+        <test-method is-config="true" signature="navigateToCheckout()[pri:0, instance:test.CheckoutTest@7ef82753]" started-at="2023-04-28T14:52:45 ART" name="navigateToCheckout" finished-at="2023-04-28T14:52:45 ART" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckout -->
+        <test-method signature="validCheckoutSuccess()[pri:0, instance:test.CheckoutTest@7ef82753]" started-at="2023-04-28T14:52:45 ART" name="validCheckoutSuccess" finished-at="2023-04-28T14:52:46 ART" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCheckoutSuccess -->
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:test.CheckoutTest@7ef82753]" started-at="2023-04-28T14:52:46 ART" name="teatDown" finished-at="2023-04-28T14:52:46 ART" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- test.CheckoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
